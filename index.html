@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            margin: 0px;
+            height: 100%;
+            width: 100%;
+        }
+        body {
+            margin: 0px;
+            min-height: 100%;
+            width: 100%;
+        }
+        body {
+            background-image: url(https://www.gawieleroux.co.za/sites/default/files/2023-03/Blog%20photos_5%20enterprises.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #box {
+            height: 400px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, 0.651);
+            border-radius: 10px;
+        }
+        #image {
+            height: 30px;
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            margin-top: -100px;
+        }
+        #text {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-size: larger;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #text div {
+            width: fit-content;
+        }
+        form div {
+            height: 45px;
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .fields input {
+            height: 100%;
+            width: 80%;
+            background-color: rgba(0, 0, 0, 0);
+            border: 0px;
+            border-bottom: 3px solid white;
+            color: white;
+            font-size: larger;
+        }
+        #check div {
+            height: 100%;
+            width: 80%;
+            margin: 0px;
+            color: white;
+            font-size: larger;
+            align-items: center;
+            justify-content: left;
+        }
+        #check a {
+            margin-left: 4px;
+            color: white;
+        }
+        #button input {
+            height: 100%;
+            width: 80%;
+            background-color: green;
+            border: 0px;
+            border-right: 2px solid white;
+            border-bottom: 2px solid white;
+            border-radius: 5px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="image">
+            <img src="Login.png" alt="">
+        </div>
+        <div id="text"><div>LOGIN WINDOW</div></div>
+        <form action="">
+            <div class="fields"><input type="text" placeholder="Your Email Address" name="Email"></div>
+            <div class="fields"><input type="password" placeholder="Your Password" name="Password"></div>
+            <div id="check"><div><input type="checkbox" name="Agree">Agree With<a href="">Terms & Conditions</a></div></div>
+            <div id="button"><input type="submit" name="submit" value="Login"></div>
+        </form>
+    </div>
+</body>
+</html>
